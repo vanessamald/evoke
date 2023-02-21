@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bec79d9b.css",
+    "main.js": "/static/js/main.493681b9.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/EVOKE Official Logo Transparent.png": "/static/media/EVOKE Official Logo Transparent.2db25185e2c8e7c43d41.png",
+    "static/media/thirtyfive.png": "/static/media/thirtyfive.6e0ae19f3d518a5b67b0.png",
+    "static/media/lessthanhalf.png": "/static/media/lessthanhalf.2460f6acfcc5fb6633ed.png",
+    "static/media/people.png": "/static/media/people.03b30c35c6a3d17a3df7.png",
+    "index.html": "/index.html",
+    "main.bec79d9b.css.map": "/static/css/main.bec79d9b.css.map",
+    "main.493681b9.js.map": "/static/js/main.493681b9.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bec79d9b.css",
+    "static/js/main.493681b9.js"
+  ]
+}
