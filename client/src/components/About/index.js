@@ -80,12 +80,17 @@ function About(){
                 Our testing process is non-invasive, confidential, and tailored to the unique needs of each individual. 
                 We believe that everyone deserves access to the information that can help maintain their cognitive health throughout the lifespan.
             </p>
-            <h3>What We Do?</h3>
+
+            
+                <h3 className='titles'>What We Do?</h3>
+                
+            
+           
             <p>
                 At the primary care level, current testing lacks the sensitivity and specificity to make accurate patient assessments. Until recently, it has been difficult to objectively assess patients for cognitive impairment due to the lack of specificity.
                 Evoke Neurodiagnostics partners with providers to offer neurologic assessment summaries for their patients with our BrainView system.
             </p>
-            <h3>What is BrainView?</h3>
+                <h3 className='titles'>What is BrainView?</h3>
             <p>
                 BrainView is FDA-approved, pain-free, non-invasive and can be completed in about 25-45 minutes.
                 BrainView captures the electroencephalogram activity of the brain (EEG), electrocardiogram activity of the heart (ECG), visual and auditory processing speeds, also known as: <em className='about-emphasize'>evoked potentials</em>, and a subjective neuropsychological survey. 
@@ -97,10 +102,6 @@ function About(){
                     <BsArrowUpRight className={icon} style={{backgroundColor: 'transparent', width: '40px'}}/>
                     Why test early?
             </button>
-            
-
-            
-
             <motion.div style={{ height: '0px'}}
                 animate={isOpen ? 'open' : 'closed'}
                 variants = {variants}

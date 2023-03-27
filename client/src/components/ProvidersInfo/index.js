@@ -1,8 +1,9 @@
 import React, {useRef, useState } from 'react';
 import {  motion, useInView } from 'framer-motion';
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import { BsFillArrowUpCircleFill } from 'react-icons/bs';
 import useThemeStorage from '../themeStorage';
-import brainViewImage from '../../assets/images/brainview-test.jpg'
+import brainViewImage from '../../assets/images/brainview-test.jpg';
+import backgroundImage from '../../assets/images/moritz-kindler-G66K_ERZRhM-unsplash.png';
 import Accordion from 'react-bootstrap/Accordion';
 
 function ProvidersInfo() {
@@ -248,9 +249,13 @@ function ProvidersInfo() {
                         <h3><SplitSubText/></h3>
                             {/*<h3 className='providers-subtext'>The ability to rapidly, inexpensively, and reliably measure the brain’s functional health</h3>*/}
                     </div>
+                    
                     <button onClick={showDiv} style={{border: 'none', zIndex: '8'}}>
                         <div className="providers-hover" style={{}}>Learn More</div>
                     </button>
+                </div>
+                <div>
+                    {/*<img className='providers-background-image' src={backgroundImage}></img>*/}
                 </div>
             </div>
         </div> 

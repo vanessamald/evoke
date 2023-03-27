@@ -100,6 +100,7 @@ code {
   --body-bg-color: black;
   --font-color: white;
   --alt-bg-color: purple;
+  --border-color: blueviolet;
 }
 
 .light {
@@ -107,6 +108,7 @@ code {
   --body-bg-color: white;
   --alt-bg-color: rgba(33, 129, 193, 1);
   font-weight: bold; 
+  --border-color: rgba(33, 129, 193, 1);
 }
 
 .blue {
@@ -609,7 +611,7 @@ code {
 }
 
 .about-learn-more {
-  padding-top: 200px;
+  margin-top: 200px;
 }
 /* About Styling Ends */ 
 
@@ -1323,6 +1325,13 @@ a:active {
 }
 
 /* Providers Styling */
+.providers-background-image {
+  position: absolute;
+  z-index: 99;
+  width: 100vw;
+  height: auto;
+}
+
 .arrowup-icon2 {
   width: 60px;
   height: 60px;
@@ -1556,8 +1565,11 @@ a:active {
 .providers-accordion-container {
   margin-top: 500px;
 }
-
 /* Providers Styling Ends */
+
+
+
+/* TESTING STYLING ENDS */
 
 /* Mobile Responsiveness */
 @media only screen and (max-width: 600px) {
@@ -1718,7 +1730,7 @@ a:active {
   .providers-hidden-text-container {
     width: 100%;
     padding: 50px;
-    top: 700px;
+    top: 725px;
   }
   .providers-hidden-text {
     font-size: 4vw;
